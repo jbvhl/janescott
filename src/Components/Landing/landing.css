@@ -1,0 +1,46 @@
+.Landing > h1 {
+    font-weight: 100;
+    margin: 9%;
+    font-size: 45px;
+    color: rgb(143, 20, 20);
+}
+
+#input {
+    width: 200px;
+    height: 35px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.Landing button {
+    border-radius: 20px;
+    height: 35px;
+    width: 125px;
+    background: white;
+    margin: 15px;
+    font-size: 22px;
+    font-family: Snell Roundhand cursive;
+}
+
+.Landing button:hover {
+    background: rgb(165, 185, 124)
+}
+
+.Enter {
+    box-sizing: border-box;
+    border: dashed rgb(165, 185, 124);
+    width: 25%;
+    margin: 0 0 0 38%;
+}
+
+body {
+    /* background-image: url('http://awakening.land/main/wp-content/uploads/2015/02/Flower-Art-White-Background-HD-Wallpaper.jpg'); */
+    background-image: url('https://images.pexels.com/photos/961402/pexels-photo-961402.jpeg?cs=srgb&dl=art-background-beautiful-961402.jpg&fm=jpg');
+    /* background-image: url('https://images.pexels.com/photos/1696726/pexels-photo-1696726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
