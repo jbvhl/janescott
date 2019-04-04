@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
       {routes}
-      <footer id='footer'>Made by Bao Le</footer>
+      <footer id='footer'>Made with love and many happy wishes -Jennifer</footer>
       </div>
     );
   }
