@@ -1,8 +1,9 @@
 .Landing > h1 {
     font-weight: 100;
-    margin: 9%;
+    margin: 8%;
     font-size: 45px;
     color: rgb(143, 20, 20);
+    font-variant: small-caps;
 }
 
 #input {
@@ -22,7 +23,7 @@
     background: white;
     margin: 15px;
     font-size: 22px;
-    font-family: Snell Roundhand cursive;
+    font-variant: small-caps;    
 }
 
 .Landing button:hover {
@@ -37,10 +38,10 @@
 }
 
 body {
-    /* background-image: url('http://awakening.land/main/wp-content/uploads/2015/02/Flower-Art-White-Background-HD-Wallpaper.jpg'); */
+    background-image: url('http://awakening.land/main/wp-content/uploads/2015/02/Flower-Art-White-Background-HD-Wallpaper.jpg');
     background-image: url('https://images.pexels.com/photos/961402/pexels-photo-961402.jpeg?cs=srgb&dl=art-background-beautiful-961402.jpg&fm=jpg');
     /* background-image: url('https://images.pexels.com/photos/1696726/pexels-photo-1696726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); */
-    background-position: center;
+    /* background-position: center; */
     background-size: cover;
     background-repeat: no-repeat;
 }

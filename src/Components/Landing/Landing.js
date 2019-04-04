@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import "./landing.css";
+import axios from "axios";
 
 export default class Landing extends Component {
   constructor() {
@@ -17,26 +18,28 @@ export default class Landing extends Component {
     });
   }
 
+  login = async () => {
+    let res = await axios.post('/auth/login', {password: this.state.password})
+    console.log(res.data)
+    if (res.data) {
+      this.props.history.push('/home')
+    }
+  };
+
   render() {
     return (
       <div className="Landing">
-        <h1>CONGRATULATIONS JANE & SCOTT</h1>
-        <h2>MR & MRS</h2>
+        <h1>JANE & SCOTT</h1>
         <div className="Enter">
           <input
             id="input"
-            onChange={this.handleChange}
+            onChange={e => this.handleChange(e.target.value)}
             type="password"
             placeholder="Password"
           />
           <br />
-          <button>Enter</button>
+          <button onClick={this.login}>Enter</button>
         </div>
-        <p>cool wedding site</p>
-        <img
-          alt="pic"
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8rEmU-ruIn1lRqaxZIziwcpZcTH6d9m_zVevdyU4y8pnhgPGI"
-        />
       </div>
     );
   }

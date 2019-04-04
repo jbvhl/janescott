@@ -1,15 +1,17 @@
 import React, { Component } from 'react';
 import './App.css';
-import Landing from './Components/Landing/Landing';
+import routes from './routes';
+import {withRouter} from 'react-router-dom';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-      <Landing />
+      {routes}
+      <footer id='footer'>Made by Bao Le</footer>
       </div>
     );
   }
 }
 
-export default App;
+export default withRouter(App);
