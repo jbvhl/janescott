@@ -4,7 +4,8 @@
 
 #footer {
   padding: 24% .5% 0;
-  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-variant: small-caps;
+  letter-spacing: .1;
   position: fixed;
   bottom: 0;
 }

@@ -1,13 +1,15 @@
 import React, { Component } from "react";
 import './info.css';
-import Date from '../Assets/date.png';
+import Date from '../Assets/janesavethedate.png';
+import Photo from '../Assets/Couple/a.jpg'
 
 class Info extends Component {
     render() {
         return (
-            <>
-            <img id='date' src={Date} alt="SaveTheDate"/>
-            </>
+            <div className='info'>
+            <img id='date' src={Date} alt="info"/>
+            <img id='photo' src={Photo} alt=''/>
+            </div>
         )
     }
 }

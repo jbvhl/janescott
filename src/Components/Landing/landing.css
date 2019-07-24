@@ -1,47 +1,78 @@
-.Landing > h1 {
-    font-weight: 100;
-    margin: 8%;
-    font-size: 45px;
-    color: rgb(143, 20, 20);
-    font-variant: small-caps;
+.Landing h1 {
+  font-weight: 100;
+  padding: 10% 28% 0 0;
+  font-size: 57px;
+  color: rgb(255, 255, 255);
+  font-variant: small-caps;
+  margin: 0;
+  letter-spacing: 5px;
+  position: relative;
+  top: 28px;
+  z-index: 1;
 }
 
 #input {
-    width: 200px;
-    height: 35px;
-    background: transparent;
-    border: none;
-    border-bottom: 1px solid;
-    text-align: center;
-    margin: 15px 0;
+  width: 200px;
+  height: 35px;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid;
+  text-align: center;
+  margin: 15px 0 0 34%;
 }
 
 .Landing button {
-    border-radius: 20px;
-    height: 35px;
-    width: 125px;
-    background: white;
-    margin: 15px;
-    font-size: 22px;
-    font-variant: small-caps;    
+  border-radius: 20px;
+  height: 35px;
+  width: 100px;
+  background: white;
+  margin-left: 40%;
+  font-size: 22px;
+  font-variant: small-caps;
 }
 
 .Landing button:hover {
-    background: rgb(165, 185, 124)
+  background: rgb(158, 158, 158);
 }
 
 .Enter {
-    box-sizing: border-box;
-    border: dashed rgb(165, 185, 124);
-    width: 25%;
-    margin: 0 0 0 38%;
+  background: rgb(163, 159, 159);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  opacity: 0.5;
+  height: 40%;
+  width: 50%;
+  margin-left: 25%;
 }
 
-body {
-    background-image: url('http://awakening.land/main/wp-content/uploads/2015/02/Flower-Art-White-Background-HD-Wallpaper.jpg');
-    background-image: url('https://images.pexels.com/photos/961402/pexels-photo-961402.jpeg?cs=srgb&dl=art-background-beautiful-961402.jpg&fm=jpg');
-    /* background-image: url('https://images.pexels.com/photos/1696726/pexels-photo-1696726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); */
-    /* background-position: center; */
-    background-size: cover;
-    background-repeat: no-repeat;
+/* body {
+  background-image: url("../Assets/fa.jpg");
+  background-position: center;
+  background-image: url('http://awakening.land/main/wp-content/uploads/2015/02/Flower-Art-White-Background-HD-Wallpaper.jpg');
+  background-image: url('https://images.pexels.com/photos/961402/pexels-photo-961402.jpeg?cs=srgb&dl=art-background-beautiful-961402.jpg&fm=jpg');
+  background-image: url('https://images.pexels.com/photos/1696726/pexels-photo-1696726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
+.Landing {
+  /* background-image: url("https://images.pexels.com/photos/961402/pexels-photo-961402.jpeg?cs=srgb&dl=art-background-beautiful-961402.jpg&fm=jpg"); */
+  background-image: url("../Assets/Couple/l.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+#sig {
+  /* padding: 24% .5% 0; */
+  color: white;
+  font-weight: 100;
+  font-variant: small-caps;
+  letter-spacing: 3px;
+  /* position: fixed; */
+  margin: 0;
 }

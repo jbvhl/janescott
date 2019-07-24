@@ -1,16 +1,26 @@
 import React, { Component } from "react";
 import "./nav.css";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 class Nav extends Component {
   render() {
     return (
-      <div className='Nav'>
-        <h1>INFO</h1>
-        <h1>OUR STORY</h1>
-        <h1>BRIDESMAIDS</h1>
-        <h1>GROOMSMEN</h1>
-        <h1>REGISTRY</h1>
+      <div className="Nav">
+        <Link to="/info">
+          <h1>INFO</h1>
+        </Link>
+        <Link to="/story">
+          <h1>OUR STORY</h1>
+        </Link>
+        <Link to="bridesmaids">
+          <h1>BRIDESMAIDS</h1>
+        </Link>
+        <Link to="groomsmen">
+          <h1>GROOMSMEN</h1>
+        </Link>
+        <Link to="registry">
+          <h1>REGISTRY</h1>
+        </Link>
       </div>
     );
   }

@@ -29,7 +29,8 @@ export default class Landing extends Component {
   render() {
     return (
       <div className="Landing">
-        <h1>JANE & SCOTT</h1>
+      <p id='sig'>Made with love and many happy wishes -Jennifer</p>
+        <h1>JANE + SCOTT</h1>
         <div className="Enter">
           <input
             id="input"

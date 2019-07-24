@@ -1,4 +1,17 @@
 #date {
-    height: 766px;
-    float: right;
+    height: 125%;
+  float: left;
+}
+
+#photo {
+  /* position: relative; */
+  /* top: -1025px; */
+  float: right;
+  /* width: 900px */
+}
+
+.info {
+    height: 770px;
+  background: none;
+  overflow: hidden;
 }
