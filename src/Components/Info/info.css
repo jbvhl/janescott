@@ -4,14 +4,18 @@
 }
 
 #photo {
-  /* position: relative; */
-  /* top: -1025px; */
+  position: relative; 
+  top: -1190px;
   float: right;
-  /* width: 900px */
+  width: 750px
 }
 
 .info {
     height: 770px;
   background: none;
   overflow: hidden;
+}
+
+#butt {
+  float: left;
 }

@@ -7,7 +7,10 @@ class Home extends Component {
         return (
             <>
             <Nav/>
-            WE ON THE HOME PAGE
+            <div className='home'>
+                <h1>We're getting married!</h1>
+                <button>Reserve Here</button>
+            </div>
             </>
         )
     }
