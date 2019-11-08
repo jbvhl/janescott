@@ -8,7 +8,7 @@ class Info extends Component {
     render() {
         return (
             <div className='info'>
-                <button id='butt'><Link to='/home'>Go Back</Link></button>
+                <button id='butt'><Link to='/home'>Back</Link></button>
             <img id='date' src={Date} alt="info"/>
             <img id='photo' src={Photo} alt=''/>
             </div>

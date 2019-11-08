@@ -18,18 +18,16 @@ export default class Landing extends Component {
     });
   }
 
-  login = async () => {
-    let res = await axios.post('/auth/login', {password: this.state.password})
-    console.log(res.data)
-    if (res.data) {
-      this.props.history.push('/home')
+  login = () => {
+    if (this.state.password === "TOAST") {
+      this.props.history.push("/home");
     }
   };
 
   render() {
     return (
       <div className="Landing">
-      <p id='sig'>Made with love and many happy wishes -Jennifer</p>
+        <p id="sig">Made with love and many happy wishes -Jennifer</p>
         <h1>JANE + SCOTT</h1>
         <div className="Enter">
           <input

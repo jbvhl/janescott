@@ -1,13 +1,15 @@
 #date {
-    height: 125%;
-  float: left;
+  height: 125%;
+  float: right;
+  position: relative;
+  width: 648px
 }
 
 #photo {
   position: relative; 
-  top: -1190px;
-  float: right;
-  width: 750px
+  top: -1180px;
+  float: left;
+  width: 728px
 }
 
 .info {
@@ -17,5 +19,7 @@
 }
 
 #butt {
+  position: relative;
   float: left;
+  z-index: 1;
 }

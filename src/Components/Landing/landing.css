@@ -2,7 +2,7 @@
   font-weight: 100;
   padding: 10% 28% 0 0;
   font-size: 57px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-variant: small-caps;
   margin: 0;
   letter-spacing: 5px;
@@ -18,16 +18,13 @@
   border: none;
   border-bottom: 1px solid;
   text-align: center;
-  margin: 15px 0 0 34%;
+  padding-top: 10%;
 }
 
 .Landing button {
-  border-radius: 20px;
-  height: 35px;
+  height: 30px;
   width: 100px;
   background: white;
-  margin-left: 40%;
-  font-size: 22px;
   font-variant: small-caps;
 }
 
@@ -36,32 +33,18 @@
 }
 
 .Enter {
-  background: rgb(163, 159, 159);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  background: rgb(206, 206, 206);
+  margin-left: 10%;
+  display: left;
   opacity: 0.5;
-  height: 40%;
-  width: 50%;
-  margin-left: 25%;
+  height: 30%;
+  width: 40%;
 }
 
-/* body {
-  background-image: url("../Assets/fa.jpg");
-  background-position: center;
-  background-image: url('http://awakening.land/main/wp-content/uploads/2015/02/Flower-Art-White-Background-HD-Wallpaper.jpg');
-  background-image: url('https://images.pexels.com/photos/961402/pexels-photo-961402.jpeg?cs=srgb&dl=art-background-beautiful-961402.jpg&fm=jpg');
-  background-image: url('https://images.pexels.com/photos/1696726/pexels-photo-1696726.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
-
 .Landing {
-  /* background-image: url("https://images.pexels.com/photos/961402/pexels-photo-961402.jpeg?cs=srgb&dl=art-background-beautiful-961402.jpg&fm=jpg"); */
-  background-image: url("../Assets/Couple/l.jpg");
+  background-image: url("../Assets/Couple/d.jpg");
   height: 100vh;
-  background-size: cover;
+  background-size: auto;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
@@ -69,7 +52,7 @@
 
 #sig {
   /* padding: 24% .5% 0; */
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: 100;
   font-variant: small-caps;
   letter-spacing: 3px;
