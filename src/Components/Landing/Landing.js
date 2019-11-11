@@ -20,6 +20,8 @@ export default class Landing extends Component {
   login = () => {
     if (this.state.password === "TOAST") {
       this.props.history.push("/home");
+    } else {
+      alert("Incorrect password, please try again.");
     }
   };
 

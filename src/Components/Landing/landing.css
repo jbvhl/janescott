@@ -26,6 +26,7 @@
   width: 100px;
   background: white;
   font-variant: small-caps;
+  margin-top: 25px;
 }
 
 .Landing button:hover {
