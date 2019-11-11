@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./landing.css";
-import axios from "axios";
 
 export default class Landing extends Component {
   constructor() {
