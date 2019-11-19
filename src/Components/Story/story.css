@@ -1,0 +1,14 @@
+.story {
+  font-variant: small-caps;
+  padding: 0 15%;
+  overflow: hidden;
+}
+
+.theirStory {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Jane {
+  padding: 0 0 0 12%;
+}

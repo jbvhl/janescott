@@ -25,6 +25,12 @@ export default class Landing extends Component {
     }
   };
 
+  handleEnter = event => {
+    if (this.state.password === "TOAST" && event.key === "Enter") {
+      this.props.history.push("/home");
+    }
+  };
+
   render() {
     return (
       <div className="Landing">
@@ -36,6 +42,7 @@ export default class Landing extends Component {
             onChange={e => this.handleChange(e.target.value)}
             type="password"
             placeholder="Password"
+            onKeyPress={this.handleEnter}
           />
           <br />
           <button onClick={this.login}>Enter</button>

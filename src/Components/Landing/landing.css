@@ -19,6 +19,7 @@
   border-bottom: 1px solid;
   text-align: center;
   padding-top: 10%;
+  outline: none;
 }
 
 .Landing button {
@@ -52,11 +53,9 @@
 }
 
 #sig {
-  /* padding: 24% .5% 0; */
   color: rgb(0, 0, 0);
   font-weight: 100;
   font-variant: small-caps;
   letter-spacing: 3px;
-  /* position: fixed; */
   margin: 0;
 }

@@ -6,9 +6,6 @@ class Groomsmen extends React.Component {
     return (
       <div>
         <h1>Groomsmen</h1>
-        <button id="butt">
-          <Link to="/home">Back</Link>
-        </button>
       </div>
     );
   }

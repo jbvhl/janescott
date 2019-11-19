@@ -16,9 +16,6 @@ class Bridesmaids extends React.Component {
     return (
       <div>
         <h1>Bridesmaids</h1>
-        <button id="butt">
-          <Link to="/home">Back</Link>
-        </button>
       </div>
     );
   }

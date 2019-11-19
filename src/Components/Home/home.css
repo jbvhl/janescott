@@ -4,11 +4,12 @@
   margin: 0;
   border-radius: 10px; */
   background-image: url("../Assets/Couple/h.jpg");
-  height: 88vh;
+  height: 100vh;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   overflow: hidden;
+  scroll-behavior: none;
 }
 
 .home h1 {
