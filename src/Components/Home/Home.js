@@ -25,7 +25,7 @@ class Home extends Component {
         days = Math.floor(count / (1000 * 60 * 60 * 24)),
         hours = Math.floor((count % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
         minutes = Math.floor((count % (1000 * 60 * 60)) / (1000 * 60)),
-        seconds = Math.floor((count % (1000 * 60 * 60)) / 1000);
+        seconds = Math.floor((count % (1000 * 60)) / 1000);
       this.setState({ days, hours, minutes, seconds });
     }, 40);
   };
