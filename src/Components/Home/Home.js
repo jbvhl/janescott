@@ -2,26 +2,32 @@ import React, { Component } from "react";
 import "./home.css";
 
 class Home extends Component {
+  constructor() {
+    super();
+
+    this.state = {
+      days: 0,
+      hours: 0,
+      minutes: 0,
+      seconds: 0
+    };
+  }
+
   componentDidMount() {
     this.countdown();
   }
 
   countdown = () => {
-    let date = new Date("feb 01, 2020").getTime(),
-      current = new Date().getTime(),
-      count = date - current,
-      days = Math.floor(count / (1000 * 60 * 60 * 24)),
-      hours = Math.floor((count % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
-      minutes = Math.floor((count % (1000 * 60 * 60)) / (1000 * 60)),
-      seconds = Math.floor((count % (1000 * 60 * 60)) / 1000);
-
-    return (
-      <div>
-        <h2>
-          Day:{days} Hr:{hours} Min:{minutes} Sec: {seconds}
-        </h2>
-      </div>
-    );
+    window.setInterval(() => {
+      let date = new Date("feb 01, 2020").getTime(),
+        current = new Date().getTime(),
+        count = date - current,
+        days = Math.floor(count / (1000 * 60 * 60 * 24)),
+        hours = Math.floor((count % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
+        minutes = Math.floor((count % (1000 * 60 * 60)) / (1000 * 60)),
+        seconds = Math.floor((count % (1000 * 60 * 60)) / 1000);
+      this.setState({ days, hours, minutes, seconds });
+    }, 40);
   };
 
   render() {
@@ -29,7 +35,12 @@ class Home extends Component {
       <>
         <div className="home">
           <h1>We're getting married!</h1>
-          {this.countdown()}
+          <div>
+            <h2>
+              Day:{this.state.days} Hr:{this.state.hours} Min:
+              {this.state.minutes} Sec: {this.state.seconds}
+            </h2>
+          </div>{" "}
         </div>
       </>
     );
