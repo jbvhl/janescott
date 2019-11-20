@@ -37,8 +37,8 @@ class Home extends Component {
           <h1>We're getting married!</h1>
           <div>
             <h2>
-              Day:{this.state.days} Hr:{this.state.hours} Min:
-              {this.state.minutes} Sec: {this.state.seconds}
+              Days: {this.state.days} Hours: {this.state.hours} Minutes:
+              {this.state.minutes} Seconds: {this.state.seconds}
             </h2>
           </div>{" "}
         </div>
