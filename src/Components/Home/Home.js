@@ -29,7 +29,7 @@ class Home extends Component {
       <>
         <div className="home">
           <h1>We're getting married!</h1>
-          {this.countdown}
+          {this.countdown()}
         </div>
       </>
     );
